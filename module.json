@@ -4,16 +4,28 @@
   "description": "Aggiunge la regola opzionale di Severity per i Major Wound in Call of Cthulhu 7th Edition.",
   "authors": [
     {
-      "name": "Tuo Nome"
+      "name": "FabioC-88",
+      "flags": {}
     }
   ],
   "version": "1.0.0",
   "compatibility": {
-    "minimum": "10",
+    "minimum": "12",
     "verified": "12"
   },
-  "relationships": {
-    "systems": ["CoC7"]
-  },
-  "scripts": ["scripts/main.js"]
+  "scripts": [
+    "scripts/main.js"
+  ],
+  "packs": [
+    {
+      "name": "tables",
+      "label": "Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
 }
