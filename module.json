@@ -1,0 +1,19 @@
+{
+  "id": "coc7_memorable_major_wound",
+  "title": "CoC7 Memorable Major Wound",
+  "description": "Aggiunge la regola opzionale di Severity per i Major Wound in Call of Cthulhu 7th Edition.",
+  "authors": [
+    {
+      "name": "Tuo Nome"
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": ["CoC7"]
+  },
+  "scripts": ["scripts/main.js"]
+}
